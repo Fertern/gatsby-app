@@ -6,7 +6,7 @@ const index = () => {
   return (
     <div className="wrapper">
      <div>some page</div>
-     <LInk to='sunset'>Go to sunset</LInk>
+     <Link to='sunset'>Go to sunset</Link>
      <Link to='test'>Go to test</Link>
     </div>
   )
