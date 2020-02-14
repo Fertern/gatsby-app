@@ -6,12 +6,22 @@
 
 module.exports = {
   plugins: [
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `images`,
+    //     path: `${__dirname}/src/images/`,
+    //   },
+    // },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-material-ui`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images/`,
+        stylesProvider: {
+          injectFirst: true,
+        },
       },
     },
+
+    `gatsby-plugin-styled-components`,
   ],
 }

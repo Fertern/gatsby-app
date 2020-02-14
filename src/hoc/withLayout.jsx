@@ -1,13 +1,16 @@
 import React from "react"
-import Header from "../components/Header"
-import Footer from "../components/Footer"
+import Header from "../components/Header/Header"
+import Footer from "../components/Footer/Footer"
+import { Container } from "@material-ui/core"
+import styled from "styled-components"
 
+const StyledContainer = styled(({ ...props }) => <Container {...props} />)`
+  margin-top: 35px;
+`
 export default WrappedComponent => ({ ...props }) => (
-    <>
-      <Header />
-      <WrappedComponent {...props} />
-      <Footer />
-    </>
-  )
-
-  
+  <StyledContainer maxWidth="lg">
+    <Header />
+    <WrappedComponent {...props} />
+    <Footer />
+  </StyledContainer>
+)
