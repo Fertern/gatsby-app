@@ -5,10 +5,12 @@ const sunset = () => {
   return (
     <div>
       <img
-      //hardcode
-      width='600'
-      src="/someSunset.jpg" alt="" />
-      <Link to='/'>Back to main</Link>
+        //hardcode
+        width="600"
+        src="/someSunset.jpg"
+        alt=""
+      />
+      <Link to="/">Back to main</Link>
     </div>
   )
 }

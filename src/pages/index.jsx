@@ -1,13 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
+import withLayout from "../hoc/withLayout"
 
-const app = () => {
+const index = () => {
   return (
     <div className="wrapper">
-      <Link to="test">Go to test page</Link>
-      <Link to='sunset'>See sunset</Link>
+     <div>some page</div>
+     <LInk to='sunset'>Go to sunset</LInk>
+     <Link to='test'>Go to test</Link>
     </div>
   )
 }
 
-export default app
+export default withLayout(index)
