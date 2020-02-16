@@ -6,11 +6,12 @@ export const colors = {
   textMain: `#000000`,
   textSecond: `#ffffff`,
   textBody: `#222222`,
+  footerColor: "#1E2022",
 }
 export const typography = {
   mainFont: `'Roboto', sans-serif`,
   secondaryFont: `'Roboto', sans-serif`,
-  labelFont: `'Roboto', sans-serif`,
+  labelFont: `'Hind Vadodara';`,
 }
 export const device = {
   mobileS: `(min-width: 320px)`,

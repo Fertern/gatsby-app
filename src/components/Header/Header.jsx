@@ -1,120 +1,118 @@
 import React from "react"
 import { HeaderWrapper, Logo, Search } from "./HeaderParts"
-import { Navigation } from './Navigation/Navigation'
+import { Navigation } from "./Navigation/Navigation"
 
 const options = [
   {
-    name: 'Home',
+    name: "Home",
     links: [
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
+        text: "Homepage 1",
+        path: "/sunset",
       },
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
+        text: "Homepage 1",
+        path: "/sunset",
       },
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
-      }
-    ]
+        text: "Homepage 1",
+        path: "/sunset",
+      },
+    ],
   },
   {
-    name: 'Home',
+    name: "Category",
     links: [
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
+        text: "Homepage 1",
+        path: "/sunset",
       },
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
+        text: "Homepage 1",
+        path: "/sunset",
       },
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
-      }
-    ]
+        text: "Homepage 1",
+        path: "/sunset",
+      },
+    ],
   },
   {
-    name: 'Home',
+    name: "Posts",
     links: [
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
+        text: "Homepage 1",
+        path: "/sunset",
       },
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
+        text: "Homepage 1",
+        path: "/sunset",
       },
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
-      }
-    ]
+        text: "Homepage 1",
+        path: "/sunset",
+      },
+    ],
   },
   {
-    name: 'Home',
+    name: "Pages",
     links: [
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
+        text: "Homepage 1",
+        path: "/sunset",
       },
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
+        text: "Homepage 1",
+        path: "/sunset",
       },
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
-      }
-    ]
+        text: "Homepage 1",
+        path: "/sunset",
+      },
+    ],
   },
   {
-    name: 'Home',
+    name: "Lifestyle",
     links: [
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
+        text: "Homepage 1",
+        path: "/sunset",
       },
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
+        text: "Homepage 1",
+        path: "/sunset",
       },
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
-      }
-    ]
+        text: "Homepage 1",
+        path: "/sunset",
+      },
+    ],
   },
   {
-    name: 'Home',
+    name: "World",
     links: [
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
+        text: "Homepage 1",
+        path: "/sunset",
       },
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
+        text: "Homepage 1",
+        path: "/sunset",
       },
       {
-        text: 'Homepage 1',
-        path: '/homepage_1'
-      }
-    ]
-  }
+        text: "Homepage 1",
+        path: "/sunset",
+      },
+    ],
+  },
 ]
 const Header = () => {
   return (
-    <header>
-      <HeaderWrapper>
-        <Logo />
-        <Navigation options={options} />
-        <Search />
-      </HeaderWrapper>
-    </header>
+    <HeaderWrapper>
+      <Logo />
+      <Navigation options={options} />
+      <Search />
+    </HeaderWrapper>
   )
 }
 

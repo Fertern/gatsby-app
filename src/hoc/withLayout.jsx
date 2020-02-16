@@ -4,13 +4,17 @@ import Footer from "../components/Footer/Footer"
 import { Container } from "@material-ui/core"
 import styled from "styled-components"
 
-const StyledContainer = styled(({ ...props }) => <Container {...props} />)`
+export const StyledContainer = styled(({ ...props }) => (
+  <Container {...props} />
+))`
   margin-top: 35px;
 `
 export default WrappedComponent => ({ ...props }) => (
-  <StyledContainer maxWidth="lg">
-    <Header />
-    <WrappedComponent {...props} />
+  <>
+    <StyledContainer maxWidth="lg">
+      <Header />
+      <WrappedComponent {...props} />
+    </StyledContainer>
     <Footer />
-  </StyledContainer>
+  </>
 )
