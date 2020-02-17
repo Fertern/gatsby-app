@@ -1,3 +1,13 @@
 # gatsby-app
 
-Some project with Gatsby.js
+```
+yarn
+```
+
+```
+yarn build
+```
+
+```
+yarn start
+```
